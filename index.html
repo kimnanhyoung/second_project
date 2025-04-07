@@ -5,54 +5,85 @@
   <title>
     인테리어소품
   </title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+    crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
     integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
-  <a href="http://naver.com" target="blank">네이버</a>
   <header>
     <a class="logo" href="index.html">
       <img src="로고.jpg" alt="로고" />
     </a>
     <nav>
       <ul>
-        <a class="menu" href="menu1.html">
-          <li><i class="fa-solid fa-people-group"></i>소품</li>
+        <a class="menu" href="jisun.html">
+          <li><i class="fa-solid fa-cube"></i>소품</li>
         </a>
+        <a class="menu" href="han.html">
+          <li><i class="fa-solid fa-lemon"></i>리빙</li>
         </a>
-        <a class="menu" href="menu2.html">
-          <li><i class="fa-solid fa-people-arrows"></i>리빙</li>
+        <a class="menu" href="lee.html">
+          <li><i class="fa-solid fa-pen-to-square"></i>문구</li>
         </a>
-        <a class="menu" href="menu3.html">
-          <li><i class="fa-solid fa-camera"></i>문구</li>
-        </a>
-        <a class="menu" href="menu4.html">
-          <li><i class="fa-regular fa-envelope"></i>핸드메이드</li>
+        <a class="menu" href="gong.html">
+          <li><i class="fa-solid fa-hand-holding-heart"></i>수제</li>
         </a>
       </ul>
     </nav>
     <div class="account">
       <a href="sign_up.html">
-        <button class="btn-login">회원가입</button>
+        <button class="btn-login">로그인</button>
       </a>
     </div>
+
   </header>
 
   <body>
     <main>
+      <div class="carousel_main">
 
+        <!-- 캐러셀-->
+        <div class="parent-caousel d-flex pt-5">
+          <div class="col-3"></div>
+          <div id="carouselExample" class="carousel slide col-6">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="slide01.jpg" class="d-block w-100" alt="slide1.jpg">
+              </div>
+              <div class="carousel-item">
+                <img src="slide07.jpg" class="d-block w-100" alt="slide2.jpg">
+              </div>
+
+              <div class="carousel-item">
+                <img src="slide09.jpg" class=" d-block w-100" alt="slide3.jpg">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
 
     </main>
 
     <footer class="bg-dark text-center text-lg-start p-3">
       <h5 class="text-center p-3 text-white">
-        ⓒ 2025 Copyright:💃
-        <a>블라썸</a>
+        ⓒ 2025 Copyright:❤️
+        <a>5조 사오정</a>
       </h5>
     </footer>
-    
+
   </body>
 
   <link href="index.css" rel="stylesheet" />
