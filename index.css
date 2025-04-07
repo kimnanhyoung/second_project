@@ -1,3 +1,7 @@
+.carousel-item{
+    height: 400px;
+    object-fit: cover;}
+
 @font-face {
     font-family: 'Cafe24Ohsquare';
     src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/Cafe24Ohsquare.woff') format('woff');
@@ -120,3 +124,4 @@ table {
 img {
     width: 100%;
 }
+
